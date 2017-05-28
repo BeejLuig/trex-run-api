@@ -3,7 +3,8 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :run, only: [:new, :index]
+      resources :trex, only: [:index]
+      resources :runners, only: [:index, :new]
     end
   end
 end
