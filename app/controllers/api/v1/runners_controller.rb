@@ -6,4 +6,6 @@ class RunnersController < ApplicationController
   def new
 
   end
+
+  
 end
